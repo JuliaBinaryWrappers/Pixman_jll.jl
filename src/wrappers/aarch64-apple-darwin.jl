@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header(LLVMOpenMP_jll)
     JLLWrappers.@init_library_product(
         libpixman,
-        "lib/libpixman-1.0.42.2.dylib",
+        "lib/libpixman-1.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
